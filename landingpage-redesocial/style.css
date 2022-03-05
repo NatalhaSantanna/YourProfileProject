@@ -1,0 +1,131 @@
+    body {
+        background-image: linear-gradient(to bottom, rgb(46, 44, 44), rgb(37, 12, 94), rgb(83, 59, 218), rgb(72, 150, 223));
+        background-attachment: fixed;
+    }
+    
+    h1 {
+        background-image: linear-gradient(to right, rgb(65, 176, 228), rgb(123, 209, 66));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-top: 35px;
+        padding-top: 10px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 130px;
+    }
+    
+    h3 {
+        position: relative;
+        top: 36px;
+        right: 310px;
+        font-size: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+    }
+    
+    p {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .lnr-users {
+        top: 30px;
+        position: absolute;
+        right: 220px;
+        color: white;
+    }
+    
+    #navbar {
+        margin-top: 20px;
+    }
+    
+    .nav-list {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    
+    .nav-list li {
+        display: inline-block;
+        list-style: none;
+        padding: 5px 10px;
+    }
+    
+    .nav-list li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-list li a:hover {
+        text-decoration: underline;
+        color: #bbc6da;
+    }
+    
+    .form-box {
+        margin-top: 90px;
+        margin-left: 70px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        width: 500px;
+        height: 250px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #6752dd;
+        box-shadow: #FFF;
+        left: 80px;
+    }
+    
+    #email-input {
+        position: absolute;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-radius: 6px;
+        width: 350px;
+        height: 30px;
+        top: 100px;
+        right: 100px;
+    }
+    
+    #senha-input {
+        position: absolute;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-radius: 6px;
+        width: 350px;
+        height: 30px;
+        top: 190px;
+        right: 100px;
+    }
+    
+    .btn input[type="submit"] {
+        position: absolute;
+        top: 245px;
+        right: 250px;
+        background-color: #1c448f;
+        color: #FFF;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    
+    .btn input[type="submit"]:hover {
+        background-color: #bbc6da;
+        color: #000;
+    }
+    
+    img {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        top: 300px;
+        left: 740px;
+    }
+    
+    footer {
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+    }
